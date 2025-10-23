@@ -1,7 +1,8 @@
 package com.example.orden_pedido.domain.model.customerOrder;
 
-import com.integraciones.orden_pedido.domain.aggregate.Material;
-import com.integraciones.orden_pedido.domain.aggregate.OrderSale;
+
+import com.example.orden_pedido.domain.aggregate.Material;
+import com.example.orden_pedido.domain.aggregate.OrderSale;
 
 import java.util.List;
 
