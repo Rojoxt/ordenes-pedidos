@@ -5,6 +5,7 @@ import com.example.orden_pedido.application.port.out.CustomerOrderPersistencePor
 import com.example.orden_pedido.domain.aggregate.OrderDetail;
 import com.example.orden_pedido.domain.model.customerOrder.CustomerOrder;
 import com.example.orden_pedido.infrastructure.adapter.in.web.dto.CustomerOrderRequestDTO;
+import com.example.orden_pedido.infrastructure.adapter.in.web.exception.InternalServerErrorException;
 import com.example.orden_pedido.infrastructure.adapter.out.adb.entities.FactoryOrderClientEntity;
 import com.example.orden_pedido.infrastructure.adapter.out.adb.mapper.CustomerOrderMapper;
 import com.example.orden_pedido.infrastructure.adapter.out.adb.mapper.FactoryOrderMapper;
